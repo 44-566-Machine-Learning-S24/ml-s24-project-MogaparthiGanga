@@ -40,10 +40,3 @@ I have selected a feature to train the model. After execution and seeing outputs
 I tried to add a few more parameters to check if they impact mean square and root mean square values or not and found out that those features have to impact on mean square and root mean square values. So I decided not to include those parameters as it might overfit my model.
 
 Model has almost similar performance on the test_data as it has performed of the train_data.
-
-As I have included
-
-
-Repo for all project documents
-
-Data set selected: 
