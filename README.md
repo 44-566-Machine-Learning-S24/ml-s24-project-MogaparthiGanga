@@ -2,6 +2,8 @@
 # 44-566 machine-learning project
 ## Project Description:
 
+Initially I have worked on [ds_salaries](https://www.kaggle.com/datasets/henryshan/2023-data-scientists-salary/data) dataset and done initial exploration which is in file initial_exploration_oldDataset. Since there are limited features to predict from, I have changed my dataset.
+
 To identify Stock price Close value with machine learning, we need to train a machine learning model for predicting Close value based on features like Open, VWAP, Volume, Trades. For this, we need a dataset containing information about Stock data, so that we can predict the Close value.
 
 #### Info regarding Dataset Features
@@ -39,3 +41,9 @@ I tried to add a few more parameters to check if they impact mean square and roo
 
 Model has almost similar performance on the test_data as it has performed of the train_data.
 
+As I have included
+
+
+Repo for all project documents
+
+Data set selected: 
