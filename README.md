@@ -40,3 +40,7 @@ I have selected a feature to train the model. After execution and seeing outputs
 I tried to add a few more parameters to check if they impact mean square and root mean square values or not and found out that those features have to impact on mean square and root mean square values. So I decided not to include those parameters as it might overfit my model.
 
 Model has almost similar performance on the test_data as it has performed of the train_data.
+
+### 3. Classification Notebook
+
+For cleaning and creating data set I have removed the rows with null values. I have created train and test dataset to to perform DecisionTree classifier and SVM classifier and also used standard scaler preprocessing. Model has performed better on test data set when compared to the train data set.
