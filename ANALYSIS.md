@@ -41,7 +41,7 @@ The root mean squared error is  1.3748139242319128
 
 ## 2. Decision Trees
 
-To check the notebook for decision trees [click here](Classification.ipynb).
+To check the notebook for decision trees [Classification](classification.ipynb).
 
 `On training set`
 
@@ -67,7 +67,7 @@ F1 = 0.4775368206817104
 
 ## 3. SVM
 
-To check the notebook on SVM [click here](Classification.ipynb).
+To check the notebook on SVM [Classification](classification.ipynb).
 
 ```
 Accuracy = 0.5266015200868621
@@ -80,7 +80,7 @@ F1 = 0.3633026134311922
 
 
 ## 4. Random Forrest
-To check the notebook on Random Forrest [click here](Clustering.ipynb).
+To check the notebook on Random Forrest [Clustering](clustering.ipynb).
 
 ```
 Accuracy (training): 0.9998275340194038
