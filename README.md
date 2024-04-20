@@ -1,12 +1,22 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/7lKBcjfN)
 # 44-566 machine-learning project
-## Project Description:
+
+### Link to 5 markdown documents
+* [RAW_DATA](RAW_DATA.md)
+* [DATA](DATA.md)
+* [ANALYSIS](ANALYSIS.md)
+* [CONCLUSIONS](CONCLUSIONS.md)
+
+### Goals
+My goal in this project is to predict the close price of the adani port based upon the open pirce.
+
+### Project Description:
 
 Initially I have worked on [ds_salaries](https://www.kaggle.com/datasets/henryshan/2023-data-scientists-salary/data) dataset and done initial exploration which is in file initial_exploration_oldDataset. Since there are limited features to predict from, I have changed my dataset.
 
-To identify Stock price Close value with machine learning, we need to train a machine learning model for predicting Close value based on features like Open, VWAP, Volume, Trades. For this, we need a dataset containing information about Stock data, so that we can predict the Close value.
+To identify Stock price of adani port Close value with machine learning, we need to train a machine learning model for predicting Close value based on features like Open, VWAP, Volume, Trades. For this, we need a dataset containing information about Stock data, so that we can predict the Close value [nifty50-stock-market-data](https://www.kaggle.com/datasets/rohanrao/nifty50-stock-market-data?select=ADANIPORTS.csv).
 
-#### Info regarding Dataset Features
+### Info regarding Dataset Features
 
 * Date - Trade Data
 * Symbol - stock name 
@@ -25,7 +35,7 @@ To identify Stock price Close value with machine learning, we need to train a ma
 * %Deliverble - Percentage of shares that were delivered
 Note: All price are in Rupees
 
-## Dataset Link:
+### Dataset Link:
 [nifty50-stock-market-data](https://www.kaggle.com/datasets/rohanrao/nifty50-stock-market-data?select=ADANIPORTS.csv)
 
 ### 1. Initial_exploration notebook
@@ -44,3 +54,16 @@ Model has almost similar performance on the test_data as it has performed of the
 ### 3. Classification Notebook
 
 For cleaning and creating data set I have removed the rows with null values. I have created train and test dataset to to perform DecisionTree classifier and SVM classifier and also used standard scaler preprocessing. Model has performed better on test data set when compared to the train data set.
+
+### 4. Clustering Notebook
+
+Have performed cluster analysis on data by taking 3 features. Clusters seems to be overlapped with each other which seems positive correlation between features. Performed dimensional reduction and visualized the data using scatter plots and scatter matrix. Random Forest
+Analysis gave an accuracy of 99%. Have also performed analysis using neural nets.
+
+## Poster pptx and Poster pdf
+
+* [Poster Powerpoint](Mogaparthi_FinalPoster.pptx)
+* [Poster PDF](Mogaparthi_FinalPoster.pdf)
+
+## Narrative Conclusion
+After applying various models and analyzing the metrics, it can be concluded that the close price of adani port has a strong positive correlation with the open price. A PCA exploration might be handy and useful in order to deermine and gain more confidence to realize if the change in close price can solely be attributed to the open price. 
